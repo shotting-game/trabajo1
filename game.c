@@ -14,8 +14,8 @@ int map[MAX][MAX];
 int score;
 void starup()
 {
-    high = 20;
-    width = 60;
+    high = 20;//altura	
+    width = 60;//ancho
     position_x = high/2;
     position_y = width/2;
     bullet_x = 0;
@@ -151,7 +151,7 @@ void show()
 }
 int main()
 {
-	system("Color 3E");
+	system("Color 3E");//Fondo amarillo y elementor(letras,nave) amarillo claro;
     starup();
     while(1)
     {
